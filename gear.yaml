@@ -1,0 +1,48 @@
+gearList: 
+    personalDryBag: 
+        count: 16
+        stow:
+            dryBag: 1
+    tentBag:
+        count: 2
+        stow: 
+            dryBag: 1
+    immersionGearBag:
+        count: 3
+        stow: 
+            dryBag: 1
+    coldFoodDay:
+        count: 16
+        stow: 
+            cooler: 0.3
+    dryFoodDay:
+        count: 16
+        stow: 
+            dryBox: 0.2
+    kitchen: 
+        stow: 
+            dryBox: 2
+    wrapKit:
+        stow:
+            dryBag: 1
+    pooBox:
+        count: 5
+        stow: 
+            drop: 0.2
+    toiletKit: 
+        stow:
+            drop: 0.4
+    propane:
+        count: 5
+        stow: 
+            drop: 0.3
+    ponyKeg:
+        count: 2
+        stow:
+            drop: 0.2
+    beer:
+        count: 500
+        stow: 
+            drop: 0.005 # Holds ~ 8 cases of beer
+            
+        

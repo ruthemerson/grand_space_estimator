@@ -1,0 +1,32 @@
+fleet: 
+    proSotar: 3
+    cataraft14: 1
+    cataraft16: 1
+
+craft:
+    proSotar: 
+        cooler: 1
+        drop: 2
+        dryBox: 2
+        raftWell: 2
+        tableTop: 1
+        sideRail: 2
+    cataraft14: 
+        cooler: 1
+        drop: 1
+        dryBox: 1
+        tableTop: 1
+        sideRail: 2
+    cataraft16: 
+        cooler: 1
+        drop: 1
+        dryBox: 1
+        tableTop: 1
+        sideRail: 2
+
+capacity:
+    tableTop:
+        dryBag: 6
+    raftWell:
+        dryBag: 8
+    
