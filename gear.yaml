@@ -1,4 +1,5 @@
 gearList: 
+    # Personal gear
     personalDryBag: 
         count: 16
         stow:
@@ -11,6 +12,15 @@ gearList:
         count: 3
         stow: 
             dryBag: 1
+    instruments:
+        stow:
+            dryBag: 2
+    personalDayGear:
+        count: 16
+        stow:
+            sideRail: 0.25
+
+    # Food
     coldFoodDay:
         count: 16
         stow: 
@@ -19,12 +29,37 @@ gearList:
         count: 16
         stow: 
             dryBox: 0.2
-    kitchen: 
-        stow: 
-            dryBox: 2
+
+    # Safety and on-river
     wrapKit:
         stow:
             dryBag: 1
+    firstAidMinor:
+        count: 5
+        stow:
+            sideRail: 0.25
+    firstAidMajor:
+        stow:
+            drop: 0.2
+    duckiesRolled:
+        count: 2
+        stow:
+            dryBag: 3
+
+    # Kitchen and camp
+    kitchen: 
+        stow: 
+            dryBox: 2
+    stove: 
+        stow: 
+            drop: 0.2
+    propane:
+        count: 3
+        stow: 
+            drop: 0.3
+    firepan:
+        stow:
+            drop: 0.3
     pooBox:
         count: 5
         stow: 
@@ -32,10 +67,11 @@ gearList:
     toiletKit: 
         stow:
             drop: 0.4
-    propane:
-        count: 5
-        stow: 
-            drop: 0.3
+    waterPump:
+        stow:
+            drop: 0.2
+
+    # Booze
     ponyKeg:
         count: 2
         stow:
