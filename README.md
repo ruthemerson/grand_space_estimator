@@ -29,9 +29,21 @@ Craft:
     - 1 dryBox
     - 1 tableTop
 Gear Stowage Levels:
-      Container      Available         Needed
-         cooler              5            4.8
-         dryBag             78             22
-           drop              8            5.8
-         dryBox              8            5.2
+<table>
+    <tr>
+      <td>Container</td>      <td>Available</td>        <td>Needed</td>
+    </tr>
+    <tr>
+         <td>cooler         </td>     <td>5</td>            <td>4.8</td>
+    </tr>
+    <tr>
+         <td>dryBag     </td>        <td>78    </td>         <td>22</td>
+    </tr>
+    <tr>
+           <td>drop         </td>     <td>8        </td>    <td>5.8</td>
+    </tr>
+    <tr>
+         <td>dryBox     </td>         <td>8       </td>     <td>5.2</td>
+    </tr>
+</table>
 
