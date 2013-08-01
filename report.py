@@ -43,7 +43,7 @@ class GearEstimator(object):
     def update_readme(self):
         stowageReport = '<table><tr><td>Container</td><td>Available</td><td>Needed</td></tr>'
         for container, levels in self.containers().iteritems():
-            stowageReport += '<tr><td>%s</td><td>%s</td><td>%s</td></tr>'
+            stowageReport += '<tr><td>%s</td><td>%s</td><td>%s</td></tr>' % (container, levels['available'], levels['needed'])
         stowageReport += '</table>'
         
         with open('README.md', 'w') as readmeFile:
