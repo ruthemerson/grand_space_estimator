@@ -7,24 +7,24 @@
 gearList: 
     # Personal gear
     personalDryBag: 
-        count: 20
+        count: 20 # Ruth:  I think we'll average closer to 2 med size dry bags per person including clothes, sleep stuff, any day packs
         stow:
-            dryBag: 1
+            dryBag: 1 
     tentBag:
-        count: 2
+        count: 2 # 8 tents = 2 SUPER LARGE dry bags.
         stow: 
             dryBag: 1
     immersionGearBag:
         count: 3
         stow: 
-            dryBag: 1
+            dryBag: 1 
     instruments:
         stow:
             dryBag: 2
     personalDayGear:
         count: 16
         stow:
-            sideRail: 0.25
+            sideRail: 0.25 # Ruth:  would recommend that everyone share an ammo can with a buddy
 
     # Food
     coldFoodDay:
@@ -54,6 +54,9 @@ gearList:
         count: 2
         stow:
             dryBag: 3
+    waterCoolers: # Ruth added
+        count: 2
+            sideRail: 0.5 # Not really sure how we're allocating side rail space
 
     # Kitchen and camp
     kitchen: 
