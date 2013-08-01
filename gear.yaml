@@ -70,6 +70,10 @@ gearList:
     waterPump:
         stow:
             drop: 0.2
+    waterJugs:
+        count: 8
+        stow:
+            dryBag: 0.5
 
     # Booze
     ponyKeg:

@@ -3,6 +3,17 @@ import yaml
 from collections import defaultdict
 from pprint import pprint as p
 
+README_STUB = """
+Grand Canyon Space Estimator
+============================
+
+How are we doing on space on our rafts?  Here are some little scripts to
+estimate how much space we'll have on the grand trip. Edit
+the YAML files to change assumptions, and then run `python gear.py` to generate
+a report.
+
+Here are the most recent results:
+"""
 
 class GearEstimator(object):
     def __init__(self, stowage, gear):
@@ -10,12 +21,16 @@ class GearEstimator(object):
         self.gear = gear
 
     def report_craft(self):
-        print "Craft:"
+        print self.generate_craft_report()
+
+    def generate_craft_report(self):
+        report = "Craft:\n"
         for name, desc in self.craft().iteritems():
-            print '  - %s %s, each with:' % (
+            report += '  - %s %s, each with:\n' % (
                     self.stowage['fleet'][name], name)
             for space, count in desc.iteritems():
-                print "    - %s %s" % (count, space)
+                report += "    - %s %s\n" % (count, space)
+        return report
 
     def report_stowage_levels(self):
         cont = self.containers()
@@ -24,6 +39,15 @@ class GearEstimator(object):
         print row_format.format('Container', 'Available', 'Needed')
         for container, levels in self.containers().iteritems():
             print row_format.format(container, levels['available'], levels['needed'])
+
+    def update_readme(self):
+        stowageReport = '<table><tr><td>Container</td><td>Available</td><td>Needed</td></tr>'
+        for container, levels in self.containers().iteritems():
+            stowageReport += '<tr><td>%s</td><td>%s</td><td>%s</td></tr>'
+        stowageReport += '</table>'
+        
+        with open('README.md', 'w') as readmeFile:
+            readmeFile.write('\n'.join([README_STUB, self.generate_craft_report(), stowageReport])) 
         
     def craft(self):
         return self.stowage.get('craft')
@@ -75,4 +99,5 @@ if __name__ == '__main__':
     ge = GearEstimator(stowage, gear)
     ge.report_craft()
     ge.report_stowage_levels()
+    ge.update_readme()
         
