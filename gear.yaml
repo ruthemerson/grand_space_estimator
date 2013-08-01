@@ -1,3 +1,9 @@
+# The following list contains all the gear we're bringing that's significant
+# from a storage/rigging perspective. For each item, I have specified count
+# (or left it out if there's just one), and also, under 'stow', have estimated 
+# What kind of container/space it will be rigged in and how much of such a 
+# container one takes up.
+
 gearList: 
     # Personal gear
     personalDryBag: 
@@ -41,6 +47,9 @@ gearList:
     firstAidMajor:
         stow:
             drop: 0.2
+    satPhone:
+        stow:
+            sideRail: 0.25
     duckiesRolled:
         count: 2
         stow:
@@ -56,6 +65,9 @@ gearList:
     stove: 
         stow: 
             drop: 0.2
+    blaster:
+        stow:
+            drop: 0.1
     propane:
         count: 3
         stow: 
