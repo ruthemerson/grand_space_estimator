@@ -50,6 +50,9 @@ gearList:
     kitchen: 
         stow: 
             dryBox: 2
+    staplesCleaningConsumables:
+        stow:
+            dryBox: 1
     stove: 
         stow: 
             drop: 0.2
