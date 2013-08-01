@@ -28,7 +28,7 @@ gearList:
     dryFoodDay:
         count: 16
         stow: 
-            dryBox: 0.2
+            dryBox: 0.3
 
     # Safety and on-river
     wrapKit:
