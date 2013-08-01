@@ -30,4 +30,4 @@ Craft:
     - 1 dryBox
     - 1 tableTop
 
-<table><tr><td>Container</td><td>Available</td><td>Needed</td></tr><tr><td>cooler</td><td>5</td><td>4.8</td></tr><tr><td>dryBag</td><td>54</td><td>34.0</td></tr><tr><td>drop</td><td>8</td><td>6.1</td></tr><tr><td>dryBox</td><td>8</td><td>5.2</td></tr><tr><td>sideRail</td><td>10</td><td>5.25</td></tr></table>
+<table><tr><td>Container</td><td>Available</td><td>Needed</td></tr><tr><td>cooler</td><td>5</td><td>4.8</td></tr><tr><td>dryBag</td><td>54</td><td>38.0</td></tr><tr><td>drop</td><td>8</td><td>6.1</td></tr><tr><td>dryBox</td><td>8</td><td>5.2</td></tr><tr><td>sideRail</td><td>10</td><td>5.25</td></tr></table>

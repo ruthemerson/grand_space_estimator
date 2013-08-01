@@ -1,7 +1,7 @@
 gearList: 
     # Personal gear
     personalDryBag: 
-        count: 16
+        count: 20
         stow:
             dryBag: 1
     tentBag:
